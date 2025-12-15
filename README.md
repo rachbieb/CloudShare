@@ -91,48 +91,83 @@ Create a folder named `screenshots` in your repository and add the images below.
 cd cloudsharewebapp
 npm install
 npm run dev
+```
+
+Admin Panel Runs On:
+
+```
+http://localhost:5173
+```
 
 ---
 
-Runs on:
-👉 http://localhost:5173
+## ⚙️ Backend Setup (Spring Boot)
 
-Backend Setup
-cd cloushareapi
+### Prerequisites
+
+* Java 21
+* Maven
+* MongoDB (Local or Atlas)
+
+### Steps
+
+```bash
+cd cloudshareapi
 mvn clean install
 mvn spring-boot:run
+```
 
-Runs on:
-👉 http://localhost:8080
+### Backend Runs On
 
-Environment Variables
+```
+http://localhost:8080
+```
 
-Create a .env file in the frontend:
+---
 
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
-VITE_RAZORPAY_KEY=your_razorpay_test_key
+---
 
-🔮 Future Improvements
+## 💳 Razorpay Integration
 
-☁️ Cloud storage integration (AWS S3 / Firebase / Cloudinary)
-📁 Folder support
-🔒 File expiration & password-protected links
-📈 Advanced analytics dashboard
-📱 Mobile responsiveness enhancements
+* Razorpay is integrated in **Test Mode**
+* Payment is triggered during checkout
+* Orders are confirmed after successful payment
 
-👨‍💻 Author
+## Environment Variables
 
-Panyam Karthikeya
+* Create a .env file in the frontend:
+
+* VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+* VITE_RAZORPAY_KEY=your_razorpay_test_key
+
+---
+
+---
+
+## 🔮 Future Improvements
+
+* ☁️ Cloud storage integration (AWS S3 / Firebase / Cloudinary)
+* 📁 Folder support
+* 🔒 File expiration & password-protected links
+* 📈 Advanced analytics dashboard
+* 📱 Mobile responsiveness enhancements
+
+---
 
 
-📌 Keywords
+## 👨‍💻 Author
 
-React File Upload · Spring Boot File Upload · Full Stack Project 2025 ·
-Cloud File Sharing App · MongoDB Spring Boot ·
-Clerk Auth React · Tailwind CSS Project ·
-Java File Upload API · React Developer Portfolio
+**Panyam Karthikeya**
 
-⭐ If you like this project, don’t forget to star the repository!
+---
+
+## 📄 License
+
+This project is for learning and demonstration purposes.
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
 
 
 
