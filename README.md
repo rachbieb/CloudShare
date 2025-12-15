@@ -88,6 +88,53 @@ Create a folder named `screenshots` in your repository and add the images below.
 
 ### 🔹 Frontend Setup
 ```bash
-cd frontend
+cd cloudsharewebapp
 npm install
 npm run dev
+
+---
+
+Runs on:
+👉 http://localhost:5173
+
+Backend Setup
+cd cloushareapi
+mvn clean install
+mvn spring-boot:run
+
+Runs on:
+👉 http://localhost:8080
+
+Environment Variables
+
+Create a .env file in the frontend:
+
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+VITE_RAZORPAY_KEY=your_razorpay_test_key
+
+🔮 Future Improvements
+
+☁️ Cloud storage integration (AWS S3 / Firebase / Cloudinary)
+📁 Folder support
+🔒 File expiration & password-protected links
+📈 Advanced analytics dashboard
+📱 Mobile responsiveness enhancements
+
+👨‍💻 Author
+
+Panyam Karthikeya
+
+
+📌 Keywords
+
+React File Upload · Spring Boot File Upload · Full Stack Project 2025 ·
+Cloud File Sharing App · MongoDB Spring Boot ·
+Clerk Auth React · Tailwind CSS Project ·
+Java File Upload API · React Developer Portfolio
+
+⭐ If you like this project, don’t forget to star the repository!
+
+
+
+
+
